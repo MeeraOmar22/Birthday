@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>sembilan</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        /* Style for the button */
+        #navigateButton {
+        background-color: #3465c7; /* Bright green background */
+        color: #FFFFFF; /* White text */
+        padding: 12px 24px; /* Padding inside the button */
+        text-align: center; /* Center-align text */
+        display: inline-block; /* Make it inline block to adjust size to content */
+        font-size: 18px; /* Font size */
+        font-weight: 500; /* Medium font weight */
+        border: none; /* No border */
+        cursor: pointer; /* Cursor style */
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Smooth background color and shadow transition */
+        }
+
+        /* Hover effect for the button */
+        #navigateButton:hover {
+        background-color: #2E865F; /* Darker green when hovering */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+        }
+
+        /* Active effect for the button */
+        #navigateButton:active {
+        background-color: #2E865F; /* Darker green when active */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow on active */
+        transform: translateY(2px); /* Slight movement on active */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">
+        <p>Today is a great day! It marks the arrival of someone destined for greatness. So........click the button at your own risk hahaha 😂</p>
+        <button id="navigateButton">👻</button>
+    </div>
+</body>
+
+<audio controls loop style="top:1%;right:1%;z-index:4">
+    <script>
+        // Function to navigate to another HTML page
+        function navigateToNextPage() {
+            window.location.href = "interactive_wish.html"; // Replace with your actual HTML file name
+        }
+        // Adding event listener to the button
+        document.getElementById('navigateButton').addEventListener('click', navigateToNextPage);
+    </script>
+    
+</audio>
+</html>
