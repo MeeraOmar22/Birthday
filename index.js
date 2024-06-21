@@ -492,7 +492,7 @@ x = setInterval(function() {
     // }
 
     // init();
-    window.location.href = 'index.html'; // replace with your new HTML file URL
+    window.location.href = '0.html'; // replace with your new HTML file URL
   }
 
   // if (distance < 0) {
